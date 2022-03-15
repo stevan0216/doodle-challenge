@@ -2,6 +2,10 @@ package com.stevan.challenge.entity;
 
 import javax.persistence.*;
 
+/**
+ * <p>Class representing locations which can be associated with the poll.</p>
+ */
+
 @Entity
 @Table(name = "location")
 public class Location {

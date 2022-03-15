@@ -32,3 +32,4 @@ With a bit more time at my disposal, I would change few things:
 2. I used simple queries to retrieve data, which are easy to create and to debug. The consequence of that approach is having more code inside main service classes. By creating more complex queries which can retrieve more data at once, service classes would be more simple, and maybe the performances would be better.
 3. Take care of storing emojis in the database. 
 4. Fix docker-compose. I am familiar with the concept, but I haven't previously worked with it, so I needed a bit more time.
+5. Fix the options hash value. Right now it's being calculated by just using hashCode java function.
